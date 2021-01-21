@@ -16,8 +16,8 @@ class TUI(controller: ControllerInterface) extends Reactor {
                   scala.io.StdIn.readLine(), scala.io.StdIn.readLine(),scala.io.StdIn.readLine())
       case "a" => controller.moveLeft()
       case "d" => controller.moveRight()
-      case "w" => controller.moveAngleUp()
       case "s" => controller.moveAngleDown()
+      case "w" => controller.moveAngleUp()
       case "p" => controller.changePlayer()
       case "f" => controller.shoot(20)
       case "z" => controller.undo
