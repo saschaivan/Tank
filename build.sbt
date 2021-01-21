@@ -46,7 +46,7 @@ val commonDependencies = Seq(
 
 
 lazy val tankBase = (project in file(".")).settings(
-  name := "TrailRunner",
+  name := "Tank",
   libraryDependencies ++= commonDependencies,
   assemblyMergeStrategy in assembly := {
     case PathList("reference.conf") => MergeStrategy.concat
