@@ -1,5 +1,5 @@
 import org.eclipse.jgit.merge.MergeStrategy
-import sun.security.tools.PathList
+import sbt.Keys.libraryDependencies
 
 name          := "Tank"
 organization  := "de.htwg.se"
@@ -54,7 +54,7 @@ lazy val tankBase = (project in file(".")).settings(
     case x => MergeStrategy.first
   },
   assemblyJarName in assembly := "Tank.jar",
-  mainClass in assembly := Some("main.Tank")
+  mainClass in assembly := Some("de.htwg.se.Tank.Tank")
 )
 
 //*******************************************************f************************//
