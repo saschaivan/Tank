@@ -13,8 +13,8 @@
             <life>100</life>
             <angle>30</angle>
         </tank>
-        <posx>14.884179877132787</posx>
-        <posy>11.98304411520222</posy>
+        <posx>22.905352237035057</posx>
+        <posy>10.0</posy>
     </player>
     <player>
         <name></name>
@@ -23,7 +23,7 @@
             <life>100</life>
             <angle>150</angle>
         </tank>
-        <posx>75.3800521704593</posx>
-        <posy>11.752467078375089</posy>
+        <posx>87.6198240729457</posx>
+        <posy>10.0</posy>
     </player>
 </game>

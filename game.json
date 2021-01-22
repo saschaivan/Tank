@@ -1,7 +1,7 @@
 {
   "game" : {
     "partyname" : "Standard",
-    "mapNo" : 0,
+    "mapNo" : 2,
     "size" : "small",
     "map" : {
       "activePlayer_id" : 1,
@@ -10,19 +10,19 @@
     "player1" : {
       "name" : "",
       "id" : 1,
-      "posx" : 28.037373622162512,
-      "posy" : 8.657321963222895
+      "posx" : 22.905352237035057,
+      "posy" : 10
     },
     "player2" : {
       "name" : "",
       "id" : 2,
-      "posx" : 72.43538401990217,
-      "posy" : 11.096970120804624
+      "posx" : 87.6198240729457,
+      "posy" : 10
     },
     "tank" : {
       "life1" : 100,
       "angle1" : 30,
-      "life2" : 10,
+      "life2" : 100,
       "angle2" : 150
     }
   }

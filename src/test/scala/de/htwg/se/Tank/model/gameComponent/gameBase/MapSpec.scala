@@ -48,54 +48,6 @@ class MapSpec extends WordSpec with Matchers {
     }
     }
   }
-  "A Map2" when {"generated Position Player1" should {
-
-    Map.p1.pos = Map.generatePos(1)
-    Map.toString()
-    val str = Map.toString()
-    "have String" in {
-      str should be(str)
-    }
-    "changed Player" in {
-      Map.activePlayer should be (Map.p1)
-      Map.StateContext.state.changePlayer()
-      Map.activePlayer should be (Map.p2)
-    }
-    "check active Player" in {
-      Map.moves = 0
-      Map.StateContext.state.changePlayer()
-      Map.activePlayer should be (Map.p1)
-    }
-    Map.StateContext.P1State().setPlayer()
-    "set Player" in {
-      Map.activePlayer should be (Map.p1)
-      Map.StateContext.state should be (Map.StateContext.P1State())
-    }
-    Map.StateContext.getState
-    "StateComtext state" in {
-      Map.StateContext.state should be (Map.StateContext.P1State())
-    }
-    Map.setFX(Option(1))
-
-    "have POSX_RANGE" in {
-      Map.POSX_RANGE should be (0.2)
-    }
-    "have NOPOS_RANGE" in {
-      Map.NOPOS_RANGE should be (0.1)
-    }
-  }
-  }
-  "A Map3" when {"getPlayer" should {
-    "1 " in {
-      Map.getPlayer(1) should be (Map.p1)
-    }
-
-    "2 " in {
-      Map.getPlayer(2)  should be (Map.p2)
-    }
-
-  }
-  }
 }
 
 
